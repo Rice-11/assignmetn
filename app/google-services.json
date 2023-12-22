@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "878615931910",
+    "project_id": "piggykol-b6dcc",
+    "storage_bucket": "piggykol-b6dcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878615931910:android:4289d192fd5f3461f4e787",
+        "android_client_info": {
+          "package_name": "com.example.piggyfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5pTsin0S8wu-eX79dtuyjQKZihzNk6h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

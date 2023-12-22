@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".budget"
+    android:background="@drawable/background2">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="#4D000000"
+        android:backgroundTintMode="multiply"
+        android:padding="10sp"
+        android:text="Budget"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/totalb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/totalb"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10sp"
+        android:text="Total : RM 300"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/budgett"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10sp"
+        android:text="Budget
+           Rm850"
+        android:textColor="@color/Green"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/expenseh"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10sp"
+        android:text="Expense
+           Rm450"
+        android:textColor="@color/Red"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalb"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="154dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="45dp"
+        android:text="Add Expenses"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/expenseh" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="154dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="45dp"
+        android:text="Add Expenses"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/expenseh" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="154dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="278dp"
+        android:text="Add Income"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalb"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/helpbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="109dp"
+        android:padding="20sp"
+        android:text="Help"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
